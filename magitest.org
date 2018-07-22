@@ -1,4 +1,5 @@
 #+OPTIONS: num:nil toc:nil
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+Email: tjanik@vmware.com
 
 * Some heading 1
