@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Tomas Janik)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:////Users/tomasjanik/Applications/reveal.js-3.6.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="file:////Users/tomasjanik/Applications/reveal.js-3.6.0/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:////Users/tomasjanik/Applications/reveal.js-3.6.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h2 class="author">Tomas Janik</h2><p class="date">Created: 2018-07-22 Sun 18:30</p>
+</section>
+
+<section>
+<section id="slide-org6669d73">
+<h2 id="org6669d73">Some heading 1</h2>
+<div class="outline-text-2" id="text-org6669d73">
+</div>
+</section>
+<section id="slide-orgfe31a55">
+<h3 id="orgfe31a55">And two</h3>
+<p>
+Free text goes here
+</p>
+</section>
+<section id="slide-org0c11756">
+<h3 id="org0c11756">And three</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org27a81b5">
+<h2 id="org27a81b5">Another chapter</h2>
+<p>
+Let's see if the order changes</p>
+</section>
+</section>
+</div>
+</div>
+<script src="file:////Users/tomasjanik/Applications/reveal.js-3.6.0/lib/js/head.min.js"></script>
+<script src="file:////Users/tomasjanik/Applications/reveal.js-3.6.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'file:////Users/tomasjanik/Applications/reveal.js-3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'file:////Users/tomasjanik/Applications/reveal.js-3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:////Users/tomasjanik/Applications/reveal.js-3.6.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:////Users/tomasjanik/Applications/reveal.js-3.6.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'file:////Users/tomasjanik/Applications/reveal.js-3.6.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
