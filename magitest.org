@@ -1,4 +1,10 @@
+#+OPTIONS: num:nil toc:nil
+#+Email: tjanik@vmware.com
+
 * Some heading 1
 ** And two
+Free text goes here
+** And three
 
 * Another chapter
+Let's see if the order changes
